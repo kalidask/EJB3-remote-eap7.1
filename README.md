@@ -43,5 +43,6 @@ Add "wildfly-config.xml" into your application META-INF directory
 EJB3 Server side changes:
 
 -----------------------------------------------
+Add application user:
 
 $JBOSS_HOME/bin:  ./add-user.sh -a -u admin -p admin
