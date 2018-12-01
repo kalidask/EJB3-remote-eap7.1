@@ -18,7 +18,6 @@ String myURl="/Calculator_EJB3/CalculatorBean!com.javacodegeeks.ejb.CalculatorRe
 
 Add "wildfly-config.xml" into your application META-INF directory
 
----------------------------------------
 <configuration>
   <jboss-ejb-client xmlns="urn:jboss:wildfly-client-ejb:3.0">
     <connections>
@@ -39,7 +38,6 @@ Add "wildfly-config.xml" into your application META-INF directory
     </authentication-configurations>
   </authentication-client>
 </configuration>
---------------------------------------
 
 
 EJB3 Server side changes:
