@@ -46,3 +46,5 @@ EJB3 Server side changes:
 Add application user:
 
 $JBOSS_HOME/bin:  ./add-user.sh -a -u admin -p admin
+
+Note: make sure have applied jboss eap 7.1.3 patch to eap.
